@@ -1,4 +1,6 @@
 package com.example.redis_practice.dto;
 
-public record UserProfile(String name, int age) {
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public record UserProfile(@JsonProperty String name, @JsonProperty int age) {
 }

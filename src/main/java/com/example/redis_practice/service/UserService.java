@@ -29,7 +29,6 @@ public class UserService {
 			name = externalApiService.getUserName(userId);
 			ops.set("nameKey : " + userId, name, 5, TimeUnit.SECONDS);
 		}
-
 		int age = externalApiService.getUserAge(userId);
 
 		return new UserProfile(name, age);
