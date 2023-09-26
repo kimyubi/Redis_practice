@@ -1,4 +1,4 @@
-package com.example.redis_practice;
+package com.example.redis_practice.controller;
 
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;

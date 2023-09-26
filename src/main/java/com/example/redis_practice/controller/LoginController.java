@@ -1,4 +1,4 @@
-package com.example.redis_practice;
+package com.example.redis_practice.controller;
 
 import java.util.HashMap;
 
